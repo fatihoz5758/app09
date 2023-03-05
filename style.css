@@ -36,6 +36,14 @@ h1 {
     color: #40513B;
 }
 
+h2{
+    font-size: 15px;
+    color: #40513B;
+}
+a{
+    color: #40513B;
+    text-decoration: none;
+}
 #btn {
     padding: 8px 22px;
     border-radius: 10px;
