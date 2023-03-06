@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-header {
+section {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -14,11 +14,14 @@ header {
     height: 600px;
     position: relative;
 }
-
+/* güzel olmuş, elinize sağlık... responsive bir yaklaşım için küçük eklemeler yaptım */
 .container {
     position: absolute;
     top: 50%;
     left: 50%;
+    width: 30%;
+    min-width: 300px;
+    max-width: 500px;
     transform: translate(-50%, -50%);
     background-color: #EDF1D6;
     padding: 30px;
@@ -27,9 +30,12 @@ header {
     color: #40513B;
     font-weight: bold;
     box-shadow: 0px 0px 10px black;
-
-
 }
+
+input{
+    width: 100%;
+}
+
 
 h1 {
     padding-bottom: 20px;
