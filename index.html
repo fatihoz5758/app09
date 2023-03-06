@@ -10,31 +10,31 @@
 </head>
 
 <body>
-    <header>
-        
+    <!-- html etiketlerinden <header> etiketi kullanılırken sadece navbar gibi elemanlarla kullanmamız daha güzel olur -->
+    <section>
         <div class="container">
             <h1>Login</h1>
             <label for="" class="form">Username</label><br>
-            <input type="text" id="username" placeholder="Enter your usarname"><br>
+            <input type="text" id="username" placeholder="Enter your username"><br>
             <label for="" class="form">Password</label><br>
             <input type="password" id="password" placeholder="Enter your Password">
-        <br>
-        <button id="btn" onclick="login()">Login</button>
-</div>
+            <br>
+            <button id="btn" onclick="login()">Login</button>
+        </div>
     </header>
 
-<script>
-function login(){
-    let username = document.getElementById('username').value;
-    let password = document.getElementById('password').value;
-    alert('Kullanıcı Adı : ' + username + ' ' + ' ' + 'Parola : '  + password );
-}
+    <script>
+        function login() {
+            let username = document.getElementById('username').value;
+            let password = document.getElementById('password').value;
+            alert('Kullanıcı Adı : ' + username + ' ' + ' ' + 'Parola : ' + password);
+        }
 
 
 
 
 
-</script>
+    </script>
 
 
 </body>
